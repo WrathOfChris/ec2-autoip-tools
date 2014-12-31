@@ -21,6 +21,7 @@ setup(
     entry_points={
         "console_scripts": [
             "ec2-autoip-atboot = ec2_autoip_tools.cli:ec2_autoip_atboot"
+            "ec2-autoip-list= ec2_autoip_tools.cli:ec2_autoip_list"
         ]
     }
 )
